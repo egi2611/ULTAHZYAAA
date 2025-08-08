@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Ucapan Ulang Tahun</title>
+  <link rel="stylesheet" href="kartu-ultah.css">
+</head>
+<body>
+  <div class="card">
+    <div class="sparkle-bg"></div>
+    <div class="title">Selamat Ulang Tahun!</div>
+    <div class="name">NEZZYA INDIRA QHIERTA</div>
+    <div class="message">Semoga hari spesialmu penuh kebahagiaan, tawa, dan kejutan manis! 🎉</div>
+    <div class="balloon">
+      <svg viewBox="0 0 60 80">
+        <ellipse cx="30" cy="35" rx="25" ry="35" fill="#800000"/>
+        <rect x="27" y="70" width="6" height="10" rx="3" fill="#800000"/>
+        <path d="M30 80 Q28 85 32 90" stroke="#800000" stroke-width="2" fill="none"/>
+      </svg>
+    </div>
+    <canvas class="confetti"></canvas>
+    <div class="stars"></div>
+    <div class="next-page">
+      <div class="next-message">Semoga semua impianmu tercapai dan selalu dikelilingi orang-orang yang sayang padamu! 💖</div>
+      <div class="secret-message">Zyaa, nanti habis mahgrib jangan kemana mana dulu yaaa, tunggu di kos dulu okkk</div>
+    </div>
+    <div class="cake-section">
+      <div class="cake-illustration">
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <!-- Cake base -->
+          <ellipse cx="40" cy="65" rx="28" ry="8" fill="#a0522d"/>
+          <rect x="12" y="35" width="56" height="30" rx="14" fill="#fff0f5" stroke="#800000" stroke-width="2"/>
+          <!-- Cream -->
+          <ellipse cx="40" cy="35" rx="28" ry="8" fill="#ffb6c1"/>
+          <!-- Candle -->
+          <rect x="37" y="18" width="6" height="18" rx="2" fill="#800000"/>
+          <!-- Flame -->
+          <ellipse class="flame" cx="40" cy="16" rx="3" ry="6" fill="#ffd700"/>
+        </svg>
+      </div>
+      <div class="cake-instruction">
+        <span class="shake-instruction">Goyangkan HP untuk matikan lilinnya!</span>
+        <span class="tap-instruction" style="display:none">Atau tap api lilin jika di laptop</span>
+      </div>
+    </div>
+    <div class="open-instruction" style="display:none">Klik tombol di bawah untuk membuka kartu!</div>
+    <button class="open-btn"><span class="btn-anim">✨</span> Buka Kartu <span class="btn-anim">✨</span></button>
+  </div>
+  <script src="kartu-ultah.js"></script>
+</body>
+</html>
